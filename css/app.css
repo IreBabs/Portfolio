@@ -20,6 +20,18 @@ nav{
     margin: 0;
 }
 
+.logo img {
+    height: 100px;
+
+    
+}
+
+.logo{
+    display: flex;
+    padding: 0px;
+    gap: 6px;
+}
+
 .nav-links ul{
     list-style-type: none;
     display: flex;
@@ -42,12 +54,13 @@ h1,h2,h3,h4,h5,p,span{
 }
 
 .rounded-md{
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 .btn{
     outline: none;
     min-height: 40px;
+    width: 550px;
     /* min-width: 120px; */
     padding: 12px 0;
     text-align: center;
@@ -76,8 +89,29 @@ h1,h2,h3,h4,h5,p,span{
     letter-spacing: 8px;
 }
 
+.moments h1{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 50px;
+}
+
+.portraits h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+.wed h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+.gallery h1{
+    text-align: center;
+    font-size: 50px;
+}
+
 .primary{
-    background-color: blue;
+    background-color:  #4d4d4d;
     color: white;
     border: none;
     transition-duration: 300ms;
@@ -85,7 +119,7 @@ h1,h2,h3,h4,h5,p,span{
 
 .primary:hover{
     scale: 1.1;
-    background-color: darkblue;
+    background-color: #333333;
 }
 
 .danger{
@@ -114,12 +148,11 @@ h1,h2,h3,h4,h5,p,span{
 
 .default{
     transition-duration: 300ms;
-    background-color: whitesmoke;
+
 }
 
 .btn i{
-    color: blue;
-    background-color: whitesmoke;
+    transition-duration: 300ms;
 }
 
 .default:hover{
@@ -481,9 +514,5 @@ h1,h2,h3,h4,h5,p,span{
 .sub-text{
     margin-top: 40px; 
     margin-bottom: 5px;
-}
-
-.logo img{
-    height: 70px;
 }
 
