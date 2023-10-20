@@ -67,7 +67,7 @@ h1,h2,h3,h4,h5,p,span{
 }
 
 .cover{
-    height: 450px;
+    height:100%;
     background-color: gainsboro;
     position: relative;
     margin-top: -5px;
@@ -158,6 +158,7 @@ h1,h2,h3,h4,h5,p,span{
 .default:hover{
     scale: 1.1;
 }
+
 
 .dark{
     background-color: black;
