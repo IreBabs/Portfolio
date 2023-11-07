@@ -523,7 +523,8 @@ h1,h2,h3,h4,h5,p,span{
 }
 
 .zoom-wrapper{
-    height: 400px;
+    padding: 60px;
+    height: 850px;
     overflow: hidden;
     border-radius: 16px;
     display: flex;
@@ -540,4 +541,24 @@ h1,h2,h3,h4,h5,p,span{
 
 .zoom-wrapper:hover img {
     transform: scale(1.5);
+}
+
+.indicator{
+    background-color: none !important;
+    height: 40px !important;
+    width: 60px !important;
+    margin-right: 10px !important;
+    padding: 4px 4px;
+}
+
+.indicator img{
+    transition: transform 0.8s;
+}
+
+.indicator:hover img {
+    transform: scale(1.2);
+}
+
+.active img{
+    transform: scale(1.3);
 }

@@ -31,13 +31,13 @@
                     <a class="nav-link text-white" href="#">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Moments</a>
+                    <a class="nav-link text-white" href="#moments">Moments</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Gallery</a>
+                    <a class="nav-link text-white" href="#gallery">Gallery</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Contact</a>
+                    <a class="nav-link text-white" href="#footer">Contact</a>
                   </li>
                 </ul>
 
@@ -66,7 +66,7 @@
     </section>
 
    <!-- Moments Captured -->
-   <section class="moments" style="margin-top: 60px;">
+   <section class="moments" id="moments" style="margin-top: 60px;">
         <div class="container">
             <h1>Moments Captured</h1>
 
@@ -140,50 +140,55 @@
         </div>
     </section>
     
-    <section class="portraits"  style="margin-top: 70px;">
+    <section class="portraits" id="portraits" style="margin-top: 70px;">
         <h2>Portraits</h2>
         <div class="row" style="margin-top: 30px;">
-
             <div class="zoom-wrapper d-flex">
                 <img src="/images/IMG_2200.JPG" alt="">
-
+            </div>
+            <div class="zoom-wrapper d-flex">
                 <img src="/images/IMG_0057-16.JPG" alt="">
-
+            </div>
+            <div class="zoom-wrapper d-flex">
                 <img src="/images/IMG_4432-Edit.JPG" alt="">
-
+            </div>
+            <div class="zoom-wrapper d-flex">
                 <img src="/images/IMG_4886-Edit.JPG" alt="">
-
+            </div>
+            <div class="zoom-wrapper d-flex">
                 <img src="/images/IMG_3643-Edit.JPG" alt="">
             </div>
-
         </div>
     </section>
 
-
-    
-    <section class="wed">
-        <h2>Wedding</h2>
-        <div>
-            <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        </div>
-    </section>
-
-
-        <div class="view d-flex justify-center">
-            <button class="primary btn rounded-md">View More</button>
-        </div>
 
 
     <!-- Gallery -->
-    <section class="gallery">
+    <section class="gallery" id="gallery" style="margin-top: 70px; padding: 50px;">
         <h1>Gallery</h1>
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active indicator" aria-current="true" aria-label="Slide 1">
+                <img src="/images/IMG_0105-Edit.jpg" class="d-block" style="height: 40px" alt="...">
+              </button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="indicator" aria-label="Slide 2">
+                <img src="/images/IMG_3479-Edit-2.jpg" class="d-block" style="height: 40px;" alt="...">
+              </button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="indicator" aria-label="Slide 3">
+                <img src="/images/IMG_1317-Edit.jpg" class="d-block" style="height: 40px;" alt="...">
+              </button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="indicator" aria-label="Slide 4">
+                <img src="/images/IMG_7348.JPG" class="d-block" style="height: 40px;" alt="...">
+              </button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" class="indicator" aria-label="Slide 5">
+                <img src="/images/IMG_9994-Edit.JPG" class="d-block" style="height: 40px;" alt="...">
+              </button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" class="indicator" aria-label="Slide 6">
+                <img src="/images/IMG_3068-Edit.jpg" class="d-block" style="height: 40px;" alt="...">
+              </button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" class="indicator" aria-label="Slide 7">
+                <img src="/images/IMG_0026-Edit.jpg" class="d-block" style="height: 40px;" alt="...">
+              </button>
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -220,12 +225,16 @@
     </section>
 
     <footer>
-        <div class="row">
+        <div class="row" style="padding: 4px 30px;">
             <div class="col-md-4 p-20">
-                <img src="" alt="">
+                <div class="d-flex">
+                    <img src="images/watermark 12.png" alt="Logo" width="60" height="48" class="d-inline-block align-text-center">
+                    <h3 class="d-inline-block align-text-center">IreBabs</h3>
+                </div>
+                <p style="font-style: italic; margin-left: 60px;">photography</p>
                 <div class="div-media">
-                    <a href=""><i class=""></i></a>
-                    <a href=""><i class=""></i></a>
+                    <a href="" class="text-white mr-10"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="" class="text-white"><i class="fa-brands fa-x-twitter"></i></a>
                 </div>
             </div>
     
@@ -250,9 +259,9 @@
     
             <div class="col-md-4 p-20">
                 <h3 class="footer-header">Pages</h3>
-                <div><p>Home</p></div>
-                <div><p>Catalogue</p></div>
-                <div><p>Gallery</p></div>
+                <div><a href="#" style="text-decoration: none; color: white;">Home</a></div>
+                <div><a href="#portraits" style="text-decoration: none; color: white;">Portraits</a></div>
+                <div><a href="#gallery" style="text-decoration: none; color: white;">Gallery</a></div>
             </div>
         </div>
         <p class="text-center">Copyright &copy; IreBabs <script>document.write(new Date().getFullYear())</script></p>
