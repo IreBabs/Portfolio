@@ -558,6 +558,7 @@ h1,h2,h3,h4,h5,p,span{
 
 .active img{
     transform: scale(1.3);
+    transition: transform 1.2s;
 }
 
 @media screen and (max-width: 992px) {
