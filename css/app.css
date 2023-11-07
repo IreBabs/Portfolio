@@ -522,3 +522,22 @@ h1,h2,h3,h4,h5,p,span{
     margin-bottom: 5px;
 }
 
+.zoom-wrapper{
+    height: 400px;
+    overflow: hidden;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zoom-wrapper img{
+    object-fit: cover;
+    transition: transform 0.8s;
+    height: 100%;
+    
+}
+
+.zoom-wrapper:hover img {
+    transform: scale(1.5);
+}
